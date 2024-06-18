@@ -10,7 +10,23 @@ import SwiftUI
 struct SwiftUI_Padding_Space: View {
     
     var body: some View {
-        basicPading()
+        //basicPading()
+        VStack (alignment: .trailing, spacing: 0) {
+            Text("Hello World!").padding(.vertical, 20)
+            
+            Text("I am AI I was interduced by Humans but I am more talent then Humans I can ask, answer, teach, lision, view, anilese, preduct, propabulity, statictis")//.padding()
+        }
+        .padding()
+        //.padding(.horizontal, 40)
+//        .frame(maxWidth: .infinity , alignment: .leading)
+//        .padding()
+        //.padding(.horizontal, 40)
+        .background {
+            //cornerRadius(20)
+            Color.white.cornerRadius(20)
+                .shadow(color: .gray, radius: 10, x: 10, y: 10)
+            
+        }//.cornerRadius(20)
     }
     
     fileprivate func basicPading() -> some View {
