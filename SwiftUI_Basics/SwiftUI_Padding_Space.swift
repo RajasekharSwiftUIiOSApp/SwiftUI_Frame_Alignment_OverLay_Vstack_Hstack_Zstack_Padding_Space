@@ -8,30 +8,18 @@
 import SwiftUI
 
 struct SwiftUI_Padding_Space: View {
-    
     var body: some View {
-        //basicPading()
-        VStack (alignment: .trailing, spacing: 0) {
-            Text("Hello World!").padding(.vertical, 20)
-            
-            Text("I am AI I was interduced by Humans but I am more talent then Humans I can ask, answer, teach, lision, view, anilese, preduct, propabulity, statictis")//.padding()
-        }
-        .padding()
-        //.padding(.horizontal, 40)
-//        .frame(maxWidth: .infinity , alignment: .leading)
-//        .padding()
-        //.padding(.horizontal, 40)
-        .background {
-            //cornerRadius(20)
-            Color.white.cornerRadius(20)
-                .shadow(color: .gray, radius: 10, x: 10, y: 10)
-            
-        }//.cornerRadius(20)
+        basicPading()
+        cardDesign()
     }
     
     fileprivate func basicPading() -> some View {
         return BasicPading()
     }
+    fileprivate func cardDesign() -> some View {
+        return Card()
+    }
+    
 }
 
 struct BasicPading: View {
@@ -49,6 +37,27 @@ struct BasicPading: View {
             .frame(width: 300, height: 100, alignment: .top)
             .padding(.vertical, 15)
             .background(.green)
+    }
+}
+
+struct Card: View {
+    var body: some View {
+        VStack (alignment: .trailing, spacing: 0) {
+            Text("Hello World!").padding(.vertical, 20)
+            
+            Text("I am AI I was interduced by Humans but I am more talent then Humans I can ask, answer, teach, lision, view, anilese, preduct, propabulity, statictis")//.padding()
+        }
+        .padding()
+        //.padding(.horizontal, 40)
+        //        .frame(maxWidth: .infinity , alignment: .leading)
+        //        .padding()
+        //.padding(.horizontal, 40)
+        .background {
+            //cornerRadius(20)
+            Color.gray.cornerRadius(20)
+                .shadow(color: .black.opacity(1), radius: 10, x: 10, y: 10)
+            
+        }//.cornerRadius(20)
     }
 }
 
