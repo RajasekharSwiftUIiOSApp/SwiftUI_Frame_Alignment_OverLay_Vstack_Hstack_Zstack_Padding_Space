@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SwiftUI_Padding_Space: View {
+struct SwiftUI_Padding: View {
     var body: some View {
         basicPading()
         cardDesign()
@@ -62,5 +62,5 @@ struct Card: View {
 }
 
 #Preview {
-    SwiftUI_Padding_Space()
+    SwiftUI_Padding()
 }
