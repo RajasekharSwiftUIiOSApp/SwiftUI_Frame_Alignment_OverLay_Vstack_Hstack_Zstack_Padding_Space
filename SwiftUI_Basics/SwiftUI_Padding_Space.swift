@@ -10,6 +10,15 @@ import SwiftUI
 struct SwiftUI_Padding_Space: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            .font(.largeTitle)
+            .fontWeight(.heavy)
+            .foregroundColor(Color.white)
+            .multilineTextAlignment(.center)
+            .padding(.all)
+            .background(.purple)
+            .frame(width: 400, height: 100, alignment: .center)
+            .background(.green)
+            
     }
 }
 
