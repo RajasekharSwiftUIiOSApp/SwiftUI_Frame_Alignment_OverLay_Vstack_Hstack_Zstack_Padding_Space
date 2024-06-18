@@ -22,7 +22,7 @@ extension SwiftUI_Init_Enum {
             HStack {
                 viewWithText(value: 28, fruit: .orange)
                 viewWithText(value: 48, fruit: .apple)
-                viewWithText(value: 100, fruit: .apple)
+                viewWithText(value: 99, fruit: .apple)
             }
         }
         
