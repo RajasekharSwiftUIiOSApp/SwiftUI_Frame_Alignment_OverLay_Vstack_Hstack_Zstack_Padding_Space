@@ -20,7 +20,7 @@ extension SwiftUI_Init_Enum {
     fileprivate func design() -> ScrollView<some View> {
         return ScrollView (.horizontal) {
             HStack {
-                viewWithText(value: 100, fruit: .orange)
+                viewWithText(value: 28, fruit: .orange)
                 viewWithText(value: 48, fruit: .apple)
                 viewWithText(value: 100, fruit: .apple)
             }
