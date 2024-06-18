@@ -14,7 +14,7 @@ struct SwiftUI_BasicsApp: App {
             //ContentView()
             //Color_Shapes()
             //BackGround_Overlay_With_View()
-            SwiftUI_Init_Enum(value: 100, fruit: .orange)
+            SwiftUI_Init_Enum()
         }
     }
 }
