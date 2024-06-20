@@ -15,7 +15,8 @@ struct SwiftUI_BasicsApp: App {
             //Color_Shapes()
             //BackGround_Overlay_With_View()
             //SwiftUI_Init_Enum()
-            SwiftUI_ScrollView()
+            //SwiftUI_ScrollView()
+            SwiftUI_LazyVGrid_LazyHGrid()
         }
     }
 }
