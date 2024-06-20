@@ -16,7 +16,8 @@ struct SwiftUI_BasicsApp: App {
             //BackGround_Overlay_With_View()
             //SwiftUI_Init_Enum()
             //SwiftUI_ScrollView()
-            SwiftUI_LazyVGrid_LazyHGrid()
+            //SwiftUI_LazyVGrid_LazyHGrid()
+            PropertyWraperState(background: .cyan, titleText: "Hey There I can change And Increment by Decreent", count: 0)
         }
     }
 }
