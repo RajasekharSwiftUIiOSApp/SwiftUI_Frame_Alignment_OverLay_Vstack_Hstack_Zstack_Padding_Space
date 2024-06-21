@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SwiftUI_Button: View {
+struct SwiftUI_Button_State: View {
     @State var title: String
     var body: some View {
         Text(title)
@@ -62,5 +62,5 @@ struct SwiftUI_Button: View {
 }
 
 #Preview {
-    SwiftUI_Button(title: "HI Every One")
+    SwiftUI_Button_State(title: "HI Every One")
 }

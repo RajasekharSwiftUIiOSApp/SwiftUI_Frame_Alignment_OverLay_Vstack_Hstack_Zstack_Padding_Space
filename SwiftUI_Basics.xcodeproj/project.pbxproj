@@ -11,13 +11,15 @@
 		4C6223352C21C09F003D259D /* SwiftUI_ForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6223342C21C09F003D259D /* SwiftUI_ForEach.swift */; };
 		4C9C55C52C242E0C00F94562 /* SwiftUI_LazyVGrid_LazyHGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9C55C42C242E0C00F94562 /* SwiftUI_LazyVGrid_LazyHGrid.swift */; };
 		4C9C55C72C2449CE00F94562 /* SwiftUI_SafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9C55C62C2449CE00F94562 /* SwiftUI_SafeArea.swift */; };
-		4C9C55C92C244C1600F94562 /* SwiftUI_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9C55C82C244C1600F94562 /* SwiftUI_Button.swift */; };
+		4C9C55C92C244C1600F94562 /* SwiftUI_Button_State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9C55C82C244C1600F94562 /* SwiftUI_Button_State.swift */; };
 		4C9C55CB2C24597A00F94562 /* PropertyWraperState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9C55CA2C24597A00F94562 /* PropertyWraperState.swift */; };
 		4C9C55CD2C24606900F94562 /* SwiftUI_Button_Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9C55CC2C24606900F94562 /* SwiftUI_Button_Function.swift */; };
 		4C9C55CF2C2462AD00F94562 /* SwiftUI_SubViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9C55CE2C2462AD00F94562 /* SwiftUI_SubViews.swift */; };
 		4CB1F5D62C215A4800697D7B /* SwiftUI_Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB1F5D52C215A4800697D7B /* SwiftUI_Padding.swift */; };
 		4CB1F5D82C215F4300697D7B /* SwiftUI_Vstack_Hstack_Zstack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB1F5D72C215F4300697D7B /* SwiftUI_Vstack_Hstack_Zstack.swift */; };
 		4CB4971E2C1EF16B00AB5BCE /* BackGround_Overlay_With_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB4971D2C1EF16B00AB5BCE /* BackGround_Overlay_With_View.swift */; };
+		4CB696172C255B4E005A3574 /* SwiftUIView_Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB696162C255B4E005A3574 /* SwiftUIView_Binding.swift */; };
+		4CB696192C256A97005A3574 /* SwiftUI_Conditional_Binding_Show_Hide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB696182C256A97005A3574 /* SwiftUI_Conditional_Binding_Show_Hide.swift */; };
 		4CB8989B2C230EC800803A37 /* SwiftUI_ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB8989A2C230EC800803A37 /* SwiftUI_ScrollView.swift */; };
 		4CF5D10F2C1D63C2009193A1 /* SwiftUI_BasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF5D10E2C1D63C2009193A1 /* SwiftUI_BasicsApp.swift */; };
 		4CF5D1112C1D63C2009193A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF5D1102C1D63C2009193A1 /* ContentView.swift */; };
@@ -31,13 +33,15 @@
 		4C6223342C21C09F003D259D /* SwiftUI_ForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ForEach.swift; sourceTree = "<group>"; };
 		4C9C55C42C242E0C00F94562 /* SwiftUI_LazyVGrid_LazyHGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_LazyVGrid_LazyHGrid.swift; sourceTree = "<group>"; };
 		4C9C55C62C2449CE00F94562 /* SwiftUI_SafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_SafeArea.swift; sourceTree = "<group>"; };
-		4C9C55C82C244C1600F94562 /* SwiftUI_Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Button.swift; sourceTree = "<group>"; };
+		4C9C55C82C244C1600F94562 /* SwiftUI_Button_State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Button_State.swift; sourceTree = "<group>"; };
 		4C9C55CA2C24597A00F94562 /* PropertyWraperState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWraperState.swift; sourceTree = "<group>"; };
 		4C9C55CC2C24606900F94562 /* SwiftUI_Button_Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Button_Function.swift; sourceTree = "<group>"; };
 		4C9C55CE2C2462AD00F94562 /* SwiftUI_SubViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_SubViews.swift; sourceTree = "<group>"; };
 		4CB1F5D52C215A4800697D7B /* SwiftUI_Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Padding.swift; sourceTree = "<group>"; };
 		4CB1F5D72C215F4300697D7B /* SwiftUI_Vstack_Hstack_Zstack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Vstack_Hstack_Zstack.swift; sourceTree = "<group>"; };
 		4CB4971D2C1EF16B00AB5BCE /* BackGround_Overlay_With_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackGround_Overlay_With_View.swift; sourceTree = "<group>"; };
+		4CB696162C255B4E005A3574 /* SwiftUIView_Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView_Binding.swift; sourceTree = "<group>"; };
+		4CB696182C256A97005A3574 /* SwiftUI_Conditional_Binding_Show_Hide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Conditional_Binding_Show_Hide.swift; sourceTree = "<group>"; };
 		4CB8989A2C230EC800803A37 /* SwiftUI_ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ScrollView.swift; sourceTree = "<group>"; };
 		4CF5D10B2C1D63C2009193A1 /* SwiftUI_Basics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Basics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF5D10E2C1D63C2009193A1 /* SwiftUI_BasicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BasicsApp.swift; sourceTree = "<group>"; };
@@ -88,10 +92,12 @@
 				4CB8989A2C230EC800803A37 /* SwiftUI_ScrollView.swift */,
 				4C9C55C42C242E0C00F94562 /* SwiftUI_LazyVGrid_LazyHGrid.swift */,
 				4C9C55C62C2449CE00F94562 /* SwiftUI_SafeArea.swift */,
-				4C9C55C82C244C1600F94562 /* SwiftUI_Button.swift */,
+				4C9C55C82C244C1600F94562 /* SwiftUI_Button_State.swift */,
 				4C9C55CA2C24597A00F94562 /* PropertyWraperState.swift */,
 				4C9C55CC2C24606900F94562 /* SwiftUI_Button_Function.swift */,
 				4C9C55CE2C2462AD00F94562 /* SwiftUI_SubViews.swift */,
+				4CB696162C255B4E005A3574 /* SwiftUIView_Binding.swift */,
+				4CB696182C256A97005A3574 /* SwiftUI_Conditional_Binding_Show_Hide.swift */,
 				4CF5D1122C1D63C4009193A1 /* Assets.xcassets */,
 				4CF5D1142C1D63C4009193A1 /* Preview Content */,
 			);
@@ -177,14 +183,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CF5D11D2C1D6447009193A1 /* Color_Shapes.swift in Sources */,
-				4C9C55C92C244C1600F94562 /* SwiftUI_Button.swift in Sources */,
+				4C9C55C92C244C1600F94562 /* SwiftUI_Button_State.swift in Sources */,
 				4CB1F5D82C215F4300697D7B /* SwiftUI_Vstack_Hstack_Zstack.swift in Sources */,
 				4C9C55CD2C24606900F94562 /* SwiftUI_Button_Function.swift in Sources */,
+				4CB696172C255B4E005A3574 /* SwiftUIView_Binding.swift in Sources */,
 				4C6223352C21C09F003D259D /* SwiftUI_ForEach.swift in Sources */,
 				4CB1F5D62C215A4800697D7B /* SwiftUI_Padding.swift in Sources */,
 				4C6223332C21B0F9003D259D /* SwiftUI_Init_Enum.swift in Sources */,
 				4C9C55C72C2449CE00F94562 /* SwiftUI_SafeArea.swift in Sources */,
 				4C9C55CB2C24597A00F94562 /* PropertyWraperState.swift in Sources */,
+				4CB696192C256A97005A3574 /* SwiftUI_Conditional_Binding_Show_Hide.swift in Sources */,
 				4C9C55C52C242E0C00F94562 /* SwiftUI_LazyVGrid_LazyHGrid.swift in Sources */,
 				4C9C55CF2C2462AD00F94562 /* SwiftUI_SubViews.swift in Sources */,
 				4CF5D1112C1D63C2009193A1 /* ContentView.swift in Sources */,
